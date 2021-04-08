@@ -1,7 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
+  "bin": {
+    "hd": "bin/index.js"
+  },
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -31,16 +34,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "cli-1",
+  "name": "@haitaodesign/cli",
   "author": "李海涛",
-  "module": "dist/cli-1.esm.js",
+  "module": "dist/cli.esm.js",
   "size-limit": [
     {
-      "path": "dist/cli-1.cjs.production.min.js",
+      "path": "dist/cli.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/cli-1.esm.js",
+      "path": "dist/cli.esm.js",
       "limit": "10 KB"
     }
   ],
