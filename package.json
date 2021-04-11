@@ -20,7 +20,8 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "dev": "node bin/index.js --platform gitlab"
   },
   "peerDependencies": {},
   "husky": {
@@ -54,5 +55,10 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/shelljs": "^0.8.8",
+    "arg": "^5.0.0",
+    "shelljs": "^0.8.4"
   }
 }

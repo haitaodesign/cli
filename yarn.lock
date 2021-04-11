@@ -1207,6 +1207,14 @@
   resolved "https://npm.dustess.com/@types%2festree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha1-4Xfmme4bjCLSMXTKqnQiZEOJUJ8=
 
+"@types/glob@*":
+  version "7.1.3"
+  resolved "https://npm.dustess.com/@types%2fglob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
+  integrity sha1-5rqA82t9qtLGhazZJmOC5omFwYM=
+  dependencies:
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
 "@types/graceful-fs@^4.1.2":
   version "4.1.4"
   resolved "https://npm.dustess.com/@types%2fgraceful-fs/-/graceful-fs-4.1.4.tgz#4ff9f641a7c6d1a3508ff88bc3141b152772e753"
@@ -1252,6 +1260,11 @@
   resolved "https://npm.dustess.com/@types%2fjson5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/minimatch@*":
+  version "3.0.4"
+  resolved "https://npm.dustess.com/@types%2fminimatch/-/minimatch-3.0.4.tgz#f0ec25dbf2f0e4b18647313ac031134ca5b24b21"
+  integrity sha1-8Owl2/Lw5LGGRzE6wDETTKWySyE=
+
 "@types/node@*":
   version "14.14.25"
   resolved "https://npm.dustess.com/@types%2fnode/-/node-14.14.25.tgz#15967a7b577ff81383f9b888aa6705d43fbbae93"
@@ -1282,6 +1295,14 @@
   resolved "https://npm.dustess.com/@types%2fresolve/-/resolve-1.17.1.tgz#3afd6ad8967c77e4376c598a82ddd58f46ec45d6"
   integrity sha1-Ov1q2JZ8d+Q3bFmKgt3Vj0bsRdY=
   dependencies:
+    "@types/node" "*"
+
+"@types/shelljs@^0.8.8":
+  version "0.8.8"
+  resolved "https://npm.dustess.com/@types%2fshelljs/-/shelljs-0.8.8.tgz#e439c69929b88a2c8123c1a55e09eb708315addf"
+  integrity sha1-5DnGmSm4iiyBI8GlXgnrcIMVrd8=
+  dependencies:
+    "@types/glob" "*"
     "@types/node" "*"
 
 "@types/stack-utils@^1.0.1":
@@ -1633,6 +1654,11 @@ aproba@^1.1.1:
   version "1.2.0"
   resolved "https://npm.dustess.com/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
   integrity sha1-aALmJk79GMeQobDVF/DyYnvyyUo=
+
+arg@^5.0.0:
+  version "5.0.0"
+  resolved "https://npm.dustess.com/arg/-/arg-5.0.0.tgz#a20e2bb5710e82950a516b3f933fee5ed478be90"
+  integrity sha1-og4rtXEOgpUKUWs/kz/uXtR4vpA=
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -7371,7 +7397,7 @@ shebang-regex@^3.0.0:
   resolved "https://npm.dustess.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
 
-shelljs@^0.8.3:
+shelljs@^0.8.3, shelljs@^0.8.4:
   version "0.8.4"
   resolved "https://npm.dustess.com/shelljs/-/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
   integrity sha1-3naE/ut2f4cWsyYHiooAh1iQ48I=
